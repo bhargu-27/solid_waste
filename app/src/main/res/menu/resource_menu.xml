@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/ex1"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notification"/>
+        <item android:id="@+id/ex2"
+            android:icon="@drawable/ic_spaceforshepherd"
+            android:title="Shepherd_order"/>
+        <item android:id="@+id/ex3"
+            android:icon="@drawable/ic_squareforfarmer"
+            android:title="Farmer_order"/>
+        <item android:id="@+id/e4"
+            android:title="Logout"/>
+    </group>
+
+</menu>
